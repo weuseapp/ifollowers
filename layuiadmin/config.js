@@ -358,10 +358,6 @@ layui.define(['laytpl', 'layer', 'element', 'util'], function (exports) {
             ORDER_PAY_ERROR: 40003, // 订单支付失败
             ORDER_IS_CANCEL: 40004, // 订单已取消
         });
-
-        layui.config({
-            base: 'https://cdn.jsdelivr.net/gh/weuseapp/ifollowers@1.0/layuiadmin/modules/'
-        });
     });
 
 
