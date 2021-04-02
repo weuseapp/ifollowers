@@ -2,7 +2,6 @@ layui.define(['laytpl', 'layer', 'element', 'util'], function (exports) {
     layui.config({
         base: '/layuiadmin/'
     }).use('env', function () {
-        const env = layui.env;
         exports('setter', {
             container: 'app', //容器ID
             base: layui.cache.base, //记录静态资源所在路径
@@ -361,7 +360,7 @@ layui.define(['laytpl', 'layer', 'element', 'util'], function (exports) {
         });
 
         layui.config({
-            base:'https://cdn.jsdelivr.net/gh/weuseapp/ifollowers@1.0/layuiadmin/'
+            base: 'https://cdn.jsdelivr.net/gh/weuseapp/ifollowers@1.0/layuiadmin/modules/'
         });
     });
 
